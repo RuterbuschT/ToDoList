@@ -35,8 +35,8 @@ bash
 Screenshots
 ![image](https://github.com/RuterbuschT/ToDoList/assets/139671182/b882f882-f435-4d48-b46f-d187ef0dd1ef)
 
-Screenshot 1
-Screenshot 2
+![image](https://github.com/RuterbuschT/ToDoList/assets/139671182/aa97192e-7124-4e09-85c9-8145f0f70257)
+
 Dependencies
 
     Express.js: Fast, unopinionated, minimalist web framework for Node.js.
