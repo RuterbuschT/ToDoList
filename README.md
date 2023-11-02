@@ -33,6 +33,8 @@ bash
     Start managing your tasks using the user-friendly interface.
 
 Screenshots
+![image](https://github.com/RuterbuschT/ToDoList/assets/139671182/b882f882-f435-4d48-b46f-d187ef0dd1ef)
+
 Screenshot 1
 Screenshot 2
 Dependencies
