@@ -1,0 +1,41 @@
+<%- include("partials/header.ejs") %>
+
+
+<body>
+    <div class="box" id="heading">
+        <h1>Work To-Do List</h1>
+    </div>
+
+    <div class="box">
+        <% if (workTasks) { %>
+        <% workTasks.forEach((task, index) => {%>
+                <div class="item">
+                    <input type="checkbox">
+                    <p><%= task %></p>
+                </div>
+            <% }) %>
+        <% } %> 
+
+        <form class="item" action="/submit" method="POST">
+            <div class="task-entry">
+                <input id="taskEntry" type="text" name="task" placeholder="Enter New Task"> 
+                <button id="addButton" type="submit">Add </button>
+            </div>
+            <input type="hidden" name="redirect" value="/work">
+        </form>
+</div>
+<!-- replaced with CSS that functions the same -->
+<!-- <script> 
+function toggleTask(checkbox, index) {
+    const label = document.getElementById(`newTask${index}`);
+
+    if (checkbox.checked) {
+        label.style.textDecoration = "line-through";
+    } else {
+        label.style.textDecoration = "none";
+    }
+}
+</script> -->
+
+</body>
+</html>
